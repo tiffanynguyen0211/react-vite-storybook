@@ -1,6 +1,6 @@
 # React Tailwindcss Boilerplate build with Vite
 
-This is a [ReactJS](https://reactjs.org) + [Vite](https://vitejs.dev) boilerplate to be used with [Tailwindcss](https://tailwindcss.com).
+This is a [ReactJS](https://reactjs.org) + [Vite](https://vitejs.dev) + [Storybook for Vite](https://storybook.js.org/blog/storybook-for-vite/) boilerplate to be used with [Tailwindcss](https://tailwindcss.com).
 
 ## What is inside?
 
@@ -14,51 +14,28 @@ This project uses many tools like:
 - [Tailwindcss](https://tailwindcss.com)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
+- [Storybook for Vite](https://storybook.js.org/blog/storybook-for-vite/)
 
 ## Getting Started
 
 ### Install
 
-Create the project.
-
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
-
-Access the project directory.
-
-```bash
-cd my-app
-```
-
 Install dependencies.
 
 ```bash
-npm install
+yarn install 
 ```
 
 Serve with hot reload at http://localhost:3000.
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-### Lint
+### Storybook
 
 ```bash
-npm run lint
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Test
-
-```bash
-npm run test
+yarn storybook
 ```
 
 ## License
